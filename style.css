@@ -1,0 +1,80 @@
+*{
+    
+        padding: 0;
+        margin: 0;
+        color: white;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+         
+}
+
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #494F56;
+    display: flex;
+    flex-direction: column
+
+    
+}
+section{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+#all-content{
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #302F31;
+ 
+}
+h1{
+   
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.senha-container{
+    background-color: #494F56;
+    padding: 10px;
+    border-radius: 20px;
+    width: 90%;
+    margin: auto;
+
+    
+
+}
+
+.controle{
+    margin: 20px;
+}
+
+input, button{
+    color: black;
+}
+
+
+@media (max-width: 600px){
+    .senha-container{
+        background-color: #494F56;
+        padding: 20px;
+        border-radius: 20px;
+        width: 80%;
+        margin: auto;
+    }
+    section{
+        width: 80%;
+    }
+    }  

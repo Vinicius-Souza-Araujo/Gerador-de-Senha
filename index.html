@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senha</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <section id="all-content">
+        
+        <h1>Gerador de Senha</h1>
+    
+        <div class="senha-container">
+
+            <div class="senha-body">
+                
+                <div class="controle">
+                    <label for="len">Tamanho da Senha:</label>
+                    <input type="number" id="len" value="15" min="2" max="30">
+                </div>
+
+                <div class="controle">
+                    <label for="Maiuscula">Adicionar Letras Maiúsculas:</label>
+                    <input type="checkbox" id="Maiuscula">
+                </div>
+
+                <div class="controle">
+                    <label for="Minuscula">Adicionar Letras Minúsculas:</label>
+                    <input type="checkbox" id="Minuscula">
+                </div>
+
+                <div class="controle">
+                    <label for="Numero">Adicionar Números:</label>
+                    <input type="checkbox" id="Numero">
+                </div>
+
+                <div class="controle">
+                    <label for="Caracteres">Adicionar Caracteres Especiais:</label>
+                    <input type="checkbox" id="Caracteres">
+                </div>
+                <button class="generate" id="generate">Gerar Senha</button>
+            </div>
+            <div class="senha-header">
+                <div class="senha">
+                    <span id="senha">456789zite$</span>
+                    <button id="copy">Copiar</button>
+                </div>  
+            </div>
+        </div>
+    </section>
+</body>
+</html>
